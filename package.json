@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "finnhub": "^1.2.19",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
