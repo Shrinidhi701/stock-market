@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📈 Stock Market Dashboard – Next.js Project
 
-## Getting Started
+A modern and responsive stock market dashboard built with **Next.js**, providing real-time and historical data visualization, market insights, and financial news for traders, investors, and enthusiasts.
 
-First, run the development server:
+## 🚀 Features
+
+- 📊 Real-time stock price updates
+- 🗓️ Historical data charts with technical indicators
+- 🔍 Symbol search and autocomplete
+- 📰 Live financial news integration
+- 💡 Custom watchlist creation
+- 🌙 Dark/light mode toggle
+- 🧠 AI-generated market sentiment analysis (optional)
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** Tailwind CSS / Styled Components
+- **Charts:** Recharts / Chart.js / ApexCharts
+- **APIs:** Alpha Vantage / Yahoo Finance / Finnhub / NewsAPI
+- **State Management:** Redux / Zustand / Context API
+- **Deployment:** Vercel / Netlify / Docker
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/next-stock-dashboard.git
+cd next-stock-dashboard
+
+# Install dependencies
+npm install
+
+# Add your API keys in .env.local
+cp .env.example .env.local
+# Fill in the appropriate values
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
