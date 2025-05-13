@@ -202,7 +202,6 @@ const StockTable = () => {
         fetchStockPrice(code),
         fetchStockName(code)
       ]);
-      console.log(price, name)
       const stock: Stock = { code, name, price };
       setStocks([...stocks, stock]);
       setNewCode('');

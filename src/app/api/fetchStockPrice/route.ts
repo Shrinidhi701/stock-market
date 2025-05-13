@@ -10,7 +10,6 @@ export async function GET(req: any) {
     }
     const date = new Date();
     const response = await breeze.getQuotes({ stockCode: stockCode, exchangeCode: 'NSE', expiryDate: date.toISOString(), productType: 'Futures', right: 'Others', strikePrice: 0 });
-    console.log(response);
     if((response.Success) != null) {
       return new NextResponse((response.Success)[(response.Success).length- 1].previous_close, { status: 200 });
     }

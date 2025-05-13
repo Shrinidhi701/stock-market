@@ -7,7 +7,6 @@
 // export async function GET() {
 //   try {
 //     await breeze.generateSession(iciciConfig.secretKey, iciciConfig.sessionKey).then((res:Response) => {
-//       console.log(res)
 //       return NextResponse.json(res);
 //     });
 //     return new NextResponse('Failed to fetch details', { status: 500 });
@@ -31,11 +30,11 @@ export async function GET() {
 }
 
 async function apiCalls() {
-    try {
-        const res = await breeze.getFunds();
-        return res;
-    } catch (err) {
-        console.error("API call failed:", err);
-        return null;
-    }
+  try {
+      const res = await breeze.getFunds();
+      return res;
+  } catch (err) {
+      console.error("API call failed:", err);
+      return null;
+  }
 }
