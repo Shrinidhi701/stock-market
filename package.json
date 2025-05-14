@@ -12,6 +12,7 @@
     "axios": "^1.9.0",
     "bootstrap": "^5.3.6",
     "breezeconnect": "^1.0.29",
+    "csv-parser": "^3.2.0",
     "finnhub": "^1.2.19",
     "next": "15.3.2",
     "react": "^19.0.0",
