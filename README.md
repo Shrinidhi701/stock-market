@@ -5,21 +5,14 @@ A modern and responsive stock market dashboard built with **Next.js**, providing
 ## 🚀 Features
 
 - 📊 Real-time stock price updates
-- 🗓️ Historical data charts with technical indicators
-- 🔍 Symbol search and autocomplete
-- 📰 Live financial news integration
-- 💡 Custom watchlist creation
-- 🌙 Dark/light mode toggle
-- 🧠 AI-generated market sentiment analysis (optional)
+- 🔍 Symbol search
 
 ## 🛠️ Tech Stack
 
 - **Framework:** [Next.js](https://nextjs.org/)
-- **Styling:** Tailwind CSS / Styled Components
-- **Charts:** Recharts / Chart.js / ApexCharts
-- **APIs:** Alpha Vantage / Yahoo Finance / Finnhub / NewsAPI
-- **State Management:** Redux / Zustand / Context API
-- **Deployment:** Vercel / Netlify / Docker
+- **Styling:** Bootstrap / Styled Components
+- **APIs:** Breeze Connect
+- **State Management:** useState API / Context API
 
 ## 📦 Installation
 
